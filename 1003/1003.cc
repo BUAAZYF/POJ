@@ -1,13 +1,13 @@
-#include<stdio.h>
+#include <stdio.h>
 
-int main(){
+int main() {
     float input_length;
-    while(true){
+    while (true) {
         scanf("%f", &input_length);
-        if(input_length == 0) break;
+        if (input_length == 0) break;
         float curlen = 0.;
         int curcard = 0;
-        while(curlen < input_length){
+        while (curlen < input_length) {
             curcard += 1;
             curlen += 1.0 / (curcard + 1);
         }

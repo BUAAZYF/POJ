@@ -51,7 +51,7 @@ int main() {
     dfs(0);
 
     memset(pick, false, sizeof(pick));
-    for(int i = 0; i <= n; ++i) bit[i] = 1;
+    for (int i = 0; i <= n; ++i) bit[i] = 1;
     for (int i = 1; i <= n; ++i) {
         int j = i + (i & -i);
         if (j <= n) bit[j] += bit[i];

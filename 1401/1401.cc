@@ -1,14 +1,14 @@
-#include<cstdio>
+#include <cstdio>
 
 using namespace std;
 
-int main(){
+int main() {
     int T, n;
     scanf("%d", &T);
-    while(T-- > 0){
+    while (T-- > 0) {
         scanf("%d", &n);
         int count = 0;
-        while(n){
+        while (n) {
             count += n / 5;
             n /= 5;
         }

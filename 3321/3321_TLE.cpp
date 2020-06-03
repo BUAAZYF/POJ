@@ -39,7 +39,7 @@ void updatenode(int node) {
 int main() {
     //freopen("in.txt", "r", stdin);
     scanf("%d", &n);
-    if(n == 0) return 0;
+    if (n == 0) return 0;
     for (int i = 0; i < n - 1; ++i) {
         scanf("%d%d", &u, &v);
         tree[u].subnodes.push_back(v);

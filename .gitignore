@@ -33,3 +33,6 @@
 
 #custom
 /.vscode
+/test.cpp
+/test
+/in.txt
