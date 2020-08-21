@@ -35,9 +35,7 @@
 /.vscode
 /test.cpp
 /test
-/in.txt
-/out.txt
-/test_out.txt
+/*.txt
 /tempCodeRunnerFile
 /temp.cpp
 /temp
