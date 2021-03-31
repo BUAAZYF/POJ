@@ -33,10 +33,9 @@
 
 #custom
 /.vscode
-/test.cpp
+/*.cpp
 /test
 /*.txt
 /*.py
 /tempCodeRunnerFile
-/temp.cpp
 /temp
